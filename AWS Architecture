@@ -1,0 +1,19 @@
+                Flutter App
+                     │
+          Route53 (Domain)
+                     │
+            AWS Load Balancer
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+      EC2 - App 1          EC2 - App 2
+      Go + Docker          Go + Docker
+          │                     │
+          └──────────┬──────────┘
+                     │
+                  Redis
+                     │
+              Amazon RDS
+               PostgreSQL
+                     │
+                 Amazon S3
